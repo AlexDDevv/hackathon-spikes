@@ -40,7 +40,7 @@ function App() {
                         <div className="bg-[#92C4FE] w-[450px] h-[450px] rounded-full absolute right-0 top-[-300px] blur-[150px] -z-[500] max-lg:top-[-200px] max-sm:top-[-100px] max-sm:blur-[100px] max-sm:w-[300px] max-sm:h-[300px] max-[425px]:top-[-50px] max-[425px]:right-[-50px]"></div>
                         <div className="bg-[#FEA492] w-[550px] h-[550px] rounded-full absolute -z-[500] left-0 top-[-150px] blur-[300px] max-sm:w-[300px] max-sm:h-[300px] max-sm:top-0 max-sm:blur-[150px] max-[425px]:top-[50px] max-[425px]:left-[-50px]"></div>
                     </section>
-                    <section className="w-[68%] mt-0 mb-20 mx-auto relative max-md:w-[80%] max-sm:w-full max-sm:mb-[60px]">
+                    <section className="w-[68%] mt-0 mb-20 mx-auto relative stopped max-md:w-[80%] max-sm:w-full max-sm:mb-[60px]">
                         <Slider />
                         <div className="absolute top-[45%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-full w-[95%] rounded-[25px] bg-white/80 -z-30 max-md:rounded-[20px] max-[425px]:rounded-[15px]"></div>
                         <div className="absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-full w-[90%] rounded-[25px] bg-white/50 -z-40 max-md:rounded-[20px] max-[425px]:rounded-[15px]"></div>
