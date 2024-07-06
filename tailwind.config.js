@@ -8,6 +8,9 @@ export default {
         bodyFont: ["DM Sans", "sans-serif"],
         navFont: ["Inter", "sans-serif"],
       },
+      screens: {
+        "2xl": "1440px",
+      },
     },
   },
   plugins: [],
