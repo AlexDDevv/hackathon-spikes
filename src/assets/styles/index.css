@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F5F5;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 25px;
+    position: relative;
+}
+
+.bg-grid {
+    background-image: url("../img/bg-grid.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.setupwith {
+    max-width: 300px;
+}
+.setupwith:nth-child(4) {
+    max-width: 320px;
+} 
+
+.shadow {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07);
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.stopped:hover div div {
+    animation-play-state: paused;
+}
+
+.blurImg:before,
+.blurImg:after {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.blurImg:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #314EE7);
+}
+
+.blurImg:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #FE9C9C);
+}
